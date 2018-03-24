@@ -1,0 +1,14 @@
+{
+  "name": "seo-defect-checker",
+  "version": "0.0.1",
+  "main": "checker.js",
+  "author": "Thinh Lam",
+  "license": "MIT",
+  "description": "A module to check whether site is SEO friendly or not.",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "cherio": "^1.0.0-rc.2",
+    "request": "^2.83.0",
+    "stream-to-string": "^1.1.0"
+  }
+}
