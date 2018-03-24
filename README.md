@@ -47,7 +47,7 @@ const {
 const customRules = new TagCountRule((count) => {
 	return "Your msg"
 }, 'meta[name="robots"]', (c) => {
-	return n > 0
+	return c > 0
 });
 ```
 For more information take a look at rules.js
