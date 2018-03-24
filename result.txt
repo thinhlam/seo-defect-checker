@@ -1,3 +1,0 @@
-There are 522 <a> tag without rel attribute.
-There are head tag without descriptions.
-There are head tag without keywords.
