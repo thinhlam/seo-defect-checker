@@ -5,6 +5,10 @@
   "author": "Thinh Lam",
   "license": "MIT",
   "description": "A module to check whether site is SEO friendly or not.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thinhlam/seo-defect-checker.git"
+},
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "cherio": "^1.0.0-rc.2",
