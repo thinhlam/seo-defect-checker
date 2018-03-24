@@ -10,7 +10,7 @@ const load = (inputSrc) => {
 	} else if (inputSrc instanceof stream.Readable) {
 		return loadFromStream(inputSrc);
 	} else {
-		throw 'not a valid input src';
+		return Promise.reject("not a valid input src");
 	}
 }
 

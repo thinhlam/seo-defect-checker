@@ -31,11 +31,11 @@ const MissingKeywordsInHeadTagRule = new TagCountRule((n) => {
 });
 
 const MoreThan15StrongTagRule = new TagCountExceedThresholdRule((n) => {
-	return 'This HTML have more than 15 <strong> tag';
+	return 'This HTML have more than 15 <strong> tag.';
 }, 'strong', 15);
 
 const MultipleH1TagRule = new TagCountExceedThresholdRule((n) => {
-	return 'This HTML have more than 1 <h1> tag';
+	return 'This HTML have more than 1 <h1> tag.';
 }, 'h1', 1);
 
 module.exports = {
