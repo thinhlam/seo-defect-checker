@@ -3,9 +3,7 @@ const stream = require('stream');
 
 const write = (issues, output) => {
 	let formattedResult = issues.map(i => `${i.msg}\n`).join('');
-	if (output == null || output === undefined) {
-		resolve(result);
-	} else if (typeof output === 'string') {
+	if (typeof output === 'string') {
 		fs.writeFile(output, formattedResult, function(err, data) {
 			if (err) {
 				throw err;
