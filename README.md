@@ -8,6 +8,18 @@ const checker = require('./checker');
 checker.check('./sample/sample.html');
 ```
 
+### API
+
+```javascript
+checker.check(input, output, rules)
+```
+**Parameter**
+- input: can be either filePath or stream
+- output: can be either file output path or stream, default to console
+- rules: array of rules, it omitted will use predefined 7 rules
+
+
+
 #### User is free to compose rules in any order
 
 ```javascript

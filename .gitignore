@@ -1,6 +1,7 @@
 /test.js
 /checkerTest.js
 /result.txt
+test/result.txt
 /package-lock.json
 # Dependency directories
 node_modules/
