@@ -2,7 +2,7 @@ const fs = require('fs');
 const stream = require('stream');
 
 const write = (issues, output) => {
-	return new Promise(function(resolve, reject){
+	return new Promise(function(resolve, reject) {
 		let formattedResult = issues.map(i => `${i.msg}\n`).join('');
 		if (typeof output === 'string') {
 			fs.writeFile(output, formattedResult, function(err, data) {
