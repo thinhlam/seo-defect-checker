@@ -1,5 +1,5 @@
 {
-	"name": "seo-defect-scanner",
+	"name": "seo-defect-checker",
 	"version": "0.0.1",
 	"main": "checker.js",
 	"author": "Thinh Lam",
