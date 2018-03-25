@@ -1,6 +1,6 @@
 {
 	"name": "seo-defect-checker",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"main": "checker.js",
 	"author": "Thinh Lam",
 	"license": "MIT",
